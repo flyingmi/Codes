@@ -1,0 +1,23 @@
+This is the first measurement with a new arm (left, looking from measurement PC). The new arm is plastic and it is sure to be moving for a while before it settles. There are a realignment inbetween each device so it should not be a problem. Still perhaps a change in angle of insidence.
+__
+
+The optical power is lowered by 10dB to reduce the thermal effects. An initial look at the results give that there might still be some nonlinearity in the end result as some peaks are asymetric. This might also be due to something else.
+__
+
+The order and name of the output ports are switched in one case,
+	R00<->R01 
+,in order to start the measurement of each device at a device with direct transmission.
+
+I also think the labeling as compaired to the normal starts at L00 instead of L01, meaning R01 (this measurement) is R01 (300mm) but R02 (300mm) is called R00 (this measurement). 
+__
+
+The device map had a few error, nameing the same device in several places at once. 
+
+	True Name -> Given Name 
+	S_LAT2_9  -> S_LAT2_5 
+	TL_MOL1A  -> TL_MOL1B2
+
+Before I do anything I need to figure out if the repeated name means the measurement is replaces the first or drops the second measuremet. It measures a full collumn before stepping to the next. Meaning,
+
+	TL_MOL1A before TL_MOL1B2
+	S_LAT2_5 before S_LAT2_9 
